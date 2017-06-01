@@ -1,4 +1,6 @@
 ```
+use PHPQrcode\Qrcode;
+
 $value = "http://www.baidu.com";//二维码内容
 $errorCorrectionLevel = 'L';//容错级别
 $matrixPointSize = 10;//生成图片大小
